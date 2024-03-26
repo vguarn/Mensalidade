@@ -21,11 +21,11 @@ namespace Mensalidade
             int cont = 2;
 
             double mensalidade1 = mensalidade + material + matricula;
-            Console.WriteLine("Mensalidade 1, valor: " +mensalidade1);
+            Console.WriteLine("Mensalidade 1, valor: " +mensalidade1.ToString("C"));
 
             while (cont >1 && cont <=12) 
             { 
-                Console.WriteLine("Mensalidade " + cont + "valor: " +mensalidade);
+                Console.WriteLine("Mensalidade " + cont + "valor: " +mensalidade.ToString("C"));
                 cont++;
             }
 
